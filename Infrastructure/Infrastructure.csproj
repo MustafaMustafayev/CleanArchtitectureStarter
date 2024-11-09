@@ -12,9 +12,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DatabaseContexts\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Interceptors\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
   </ItemGroup>
 
 </Project>
