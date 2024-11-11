@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
 namespace Application.Features.Users.Commands.Update;
-internal class UpdateUserCommandValidator
+public sealed class UpdateUserCommandValidator : AbstractValidator<UpdateUserCommand>
 {
+    public UpdateUserCommandValidator()
+    {
+        RuleFor(m => m.Name).NotNull().NotEmpty();
+        RuleFor(m => m.Surname).NotNull().NotEmpty();
+        RuleFor(m => m.Email).EmailAddress();
+    }
 }

@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using Domain.Entities;
 
 namespace Application.Features.Users.Commands.Create;
-internal class CreateUserCommanMapper
+public class CreateUserCommanMapper : Profile
 {
+    public CreateUserCommanMapper()
+    {
+        CreateMap<CreateUserCommand, User>();
+    }
 }

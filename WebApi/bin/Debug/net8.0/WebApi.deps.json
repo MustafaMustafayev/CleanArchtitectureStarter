@@ -1697,6 +1697,17 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/6.9.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.9.0"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "6.9.0.0",
+            "fileVersion": "6.9.0.799"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/6.9.0": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.14"
@@ -2642,11 +2653,13 @@
       },
       "Presentation/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Asp.Versioning.Http": "8.1.0",
           "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Swashbuckle.AspNetCore.Annotations": "6.9.0"
         },
         "runtime": {
           "Presentation.dll": {}
@@ -3877,6 +3890,13 @@
       "sha512": "sha512-eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "path": "swashbuckle.aspnetcore/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Osj2fbNJ4AluEMk0qBUtxVUrAaSL1Xys1Wn1W8xGN/ElrhF2OTF+ebsnaVMw9AVtcH26GznGXv5dx1jFeP1DCQ==",
+      "path": "swashbuckle.aspnetcore.annotations/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.annotations.6.9.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/6.9.0": {
       "type": "package",

@@ -1,4 +1,6 @@
-﻿namespace Application.Responses;
+﻿using Application.Localization;
+
+namespace Application.Responses;
 
 public record ErrorResult : Result
 {
@@ -8,7 +10,7 @@ public record ErrorResult : Result
     }
 
     public ErrorResult()
-        : base(false)
+        : base(false, EMessages.GeneralError.Translate())
     {
     }
 }

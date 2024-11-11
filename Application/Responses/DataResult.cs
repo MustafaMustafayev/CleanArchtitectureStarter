@@ -1,4 +1,6 @@
-﻿namespace Application.Responses;
+﻿using Application.Localization;
+
+namespace Application.Responses;
 
 public record DataResult<T> : Result, IDataResult<T>
 {

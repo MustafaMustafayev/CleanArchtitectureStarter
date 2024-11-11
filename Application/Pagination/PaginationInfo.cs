@@ -1,4 +1,4 @@
-﻿namespace Domain.Pagination;
+﻿namespace Application.Pagination;
 public class PaginationInfo
 {
     public int PageNumber { get; set; }

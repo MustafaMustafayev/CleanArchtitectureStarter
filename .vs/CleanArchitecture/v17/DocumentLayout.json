@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\interceptors\\auditingsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interceptors\\auditingsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\refreshtoken\\refreshtokencommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\refreshtoken\\refreshtokencommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A7168-C33A-43DE-A65C-93CCEA6C155B}|WebApi\\WebApi.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\webapi\\actionfilters\\modelvalidatoractionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A7168-C33A-43DE-A65C-93CCEA6C155B}|WebApi\\WebApi.csproj|solutionrelative:webapi\\actionfilters\\modelvalidatoractionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\refreshtoken\\refreshtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\refreshtoken\\refreshtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\refreshtoken\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\refreshtoken\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\users\\queries\\getbyid\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\users\\queries\\getbyid\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\users\\commands\\create\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\users\\commands\\create\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\logout\\logoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\logout\\logoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\logout\\logoutcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\logout\\logoutcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D02BAF-3F20-4CF9-84CD-776F0CEEA8C3}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuditingSaveChangesInterceptor.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
-              "RelativeToolTip": "Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "GetUserByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Users\\Queries\\GetById\\GetUserByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Queries\\GetById\\GetUserByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Users\\Queries\\GetById\\GetUserByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Queries\\GetById\\GetUserByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:01:34.721Z",
+              "WhenOpened": "2024-11-11T21:34:07.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefreshTokenCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:30:57.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:30:46.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModelValidatorActionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
-              "RelativeDocumentMoniker": "WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
-              "RelativeToolTip": "WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
+              "Title": "RefreshTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenResponse.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\RefreshToken\\RefreshTokenResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\RefreshToken\\RefreshTokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:31:07.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Users\\Commands\\Create\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Commands\\Create\\CreateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Users\\Commands\\Create\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Commands\\Create\\CreateUserCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:01:25.406Z",
+              "WhenOpened": "2024-11-11T21:33:58.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogoutCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Logout\\LogoutCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Logout\\LogoutCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Logout\\LogoutCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Logout\\LogoutCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:27:51.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogoutCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Logout\\LogoutCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Logout\\LogoutCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Logout\\LogoutCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Logout\\LogoutCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:27:43.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:27:33.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:27:19.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:27:08.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:26:58.866Z",
               "EditorCaption": ""
             }
           ]

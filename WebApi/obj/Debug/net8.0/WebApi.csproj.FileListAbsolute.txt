@@ -205,3 +205,4 @@ C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\WebA
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\WebApi\bin\Debug\net8.0\az\Application.resources.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\WebApi\bin\Debug\net8.0\en\Application.resources.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\WebApi\bin\Debug\net8.0\ru\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll

@@ -1,5 +1,4 @@
-﻿using Domain.Pagination;
-using Domain.Primitives;
+﻿using Domain.Primitives;
 using Domain.Repositories;
 using Infrastructure.DatabaseContexts;
 using Microsoft.EntityFrameworkCore;
@@ -174,7 +173,7 @@ public class GenericRepository<TEntity>(AppDbContext dbContext) : IGenericReposi
         }
     }
 
-    public async Task<PaginatedResult<TEntity>> GetPaginatedListAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
+    public async Task<(IEnumerable<TEntity>, int totalCount)> GetPaginatedListAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
     {
         var query = filter is null
             ? ignoreQueryFilters
@@ -187,10 +186,10 @@ public class GenericRepository<TEntity>(AppDbContext dbContext) : IGenericReposi
         var datas = await query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
         var totalCount = await query.CountAsync();
 
-        return new PaginatedResult<TEntity>(datas, totalCount, pageNumber, pageSize);
+        return (datas, totalCount);
     }
 
-    public async Task<PaginatedResult<TEntity>> GetPaginatedListAsNoTrackingAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
+    public async Task<(IEnumerable<TEntity>, int totalCount)> GetPaginatedListAsNoTrackingAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
     {
         var query = filter is null
             ? ignoreQueryFilters
@@ -203,10 +202,10 @@ public class GenericRepository<TEntity>(AppDbContext dbContext) : IGenericReposi
         var datas = await query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
         var totalCount = await query.CountAsync();
 
-        return new PaginatedResult<TEntity>(datas, totalCount, pageNumber, pageSize);
+        return (datas, totalCount);
     }
 
-    public async Task<PaginatedResult<TEntity>> GetPaginatedListAsNoTrackingWithIdentityResolutionAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
+    public async Task<(IEnumerable<TEntity>, int totalCount)> GetPaginatedListAsNoTrackingWithIdentityResolutionAsync(int pageNumber, int pageSize, Expression<Func<TEntity, bool>>? filter = null, bool ignoreQueryFilters = false)
     {
         var query = filter is null
             ? ignoreQueryFilters
@@ -219,6 +218,6 @@ public class GenericRepository<TEntity>(AppDbContext dbContext) : IGenericReposi
         var datas = await query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
         var totalCount = await query.CountAsync();
 
-        return new PaginatedResult<TEntity>(datas, totalCount, pageNumber, pageSize);
+        return (datas, totalCount);
     }
 }

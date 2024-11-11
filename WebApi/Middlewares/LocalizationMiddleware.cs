@@ -3,14 +3,9 @@ using WebApi.Helpers;
 
 namespace WebApi.Middlewares;
 
-public class LocalizationMiddleware
+public class LocalizationMiddleware(RequestDelegate context)
 {
-    private readonly RequestDelegate _next;
-
-    public LocalizationMiddleware(RequestDelegate context)
-    {
-        _next = context;
-    }
+    private readonly RequestDelegate _next = context;
 
     public async Task Invoke(HttpContext context)
     {
@@ -21,7 +16,7 @@ public class LocalizationMiddleware
             LocalizationConstants.LANG_HEADER_AZ => "az-Latn",
             LocalizationConstants.LANG_HEADER_EN => "en-GB",
             LocalizationConstants.LANG_HEADER_RU => "ru-RU",
-            _ => "az-Latn"
+            _ => "en-GB"
         };
 
         Thread.CurrentThread.CurrentCulture = new CultureInfo(threadLang);

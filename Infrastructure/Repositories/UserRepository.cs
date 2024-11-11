@@ -10,4 +10,14 @@ public sealed class UserRepository(AppDbContext dbContext) : GenericRepository<U
     {
         return await dbContext.Users.AnyAsync(m => m.Id != id && m.Email == email);
     }
+
+    public new async Task UpdateAsync(User user)
+    {
+        dbContext.Entry(user).State = EntityState.Modified;
+
+        dbContext.Entry(user).Property(m => m.PasswordSalt).IsModified = false;
+        dbContext.Entry(user).Property(m => m.PasswordHash).IsModified = false;
+
+        await Task.CompletedTask;
+    }
 }

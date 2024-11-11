@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZXM20TE/i6uPR6C9Lorkx8VLxQGeuO9PcrpEPV9RnyoIC2PGPXjdYCmhLGS7d85sCHqpkZrsJFCDe1niccnx8A==",
+  "dgSpecHash": "dSzIPrtqXRVqyRQAjgaO5h+FHsulKNZXS9/8Ilcw79TkIOs2IxLyzBlYnpS7u8cCbdPesayw8zD/WC14ld3zJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -178,6 +178,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.9.0\\swashbuckle.aspnetcore.annotations.6.9.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.9.0\\swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.9.0\\swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",

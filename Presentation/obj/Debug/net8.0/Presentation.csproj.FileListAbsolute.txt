@@ -11,3 +11,11 @@ C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Pres
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\obj\Debug\net8.0\ref\Presentation.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\Application.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\Domain.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\Application.pdb
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\Domain.pdb
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\az\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\en\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\bin\Debug\net8.0\ru\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Presentation\obj\Debug\net8.0\Presenta.BC777DBE.Up2Date

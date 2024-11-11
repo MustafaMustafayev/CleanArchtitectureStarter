@@ -117,40 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EmailDoesNotExist" xml:space="preserve">
-    <value>Qeyd edilmiş elektron poçt ünvanı ilə qeydiyyat edilməyib</value>
-  </data>
-  <data name="ThisFileTypeIsNotAllowed" xml:space="preserve">
-    <value>Fayl uzantısı sistem tərəfindən dəstəklənmir</value>
-  </data>
-  <data name="GeneralError" xml:space="preserve">
-    <value>Xəta baş verdi</value>
-  </data>
-  <data name="InvalidModel" xml:space="preserve">
-    <value>Məlumatlar düzgün daxil edilməyib</value>
-  </data>
-  <data name="InvalidUserCredentials" xml:space="preserve">
-    <value>İstifadəçi məlumatları yanlışdır</value>
-  </data>
-  <data name="PasswordResetted" xml:space="preserve">
-    <value>Şifrəniz yeniləndi</value>
-  </data>
-  <data name="PermissionDenied" xml:space="preserve">
-    <value>Əməliyyatın icrası üçün icazəniz yoxdur</value>
-  </data>
-  <data name="Success" xml:space="preserve">
-    <value>Uğurla icra edildi</value>
-  </data>
-  <data name="UserIsNotExist" xml:space="preserve">
-    <value>İstifadəçi mövcud deyil</value>
-  </data>
-  <data name="UserIsExist" xml:space="preserve">
-    <value>İstifadəçi mövcuddur</value>
-  </data>
-  <data name="DataNotFound" xml:space="preserve">
-    <value>Göndərilmiş sorğuya uyğun məlumat yoxdur</value>
-  </data>
-  <data name="InvalidVerificationCode" xml:space="preserve">
-    <value>Təsdiq kodu düzgün daxil edilməyib</value>
-  </data>
 </root>

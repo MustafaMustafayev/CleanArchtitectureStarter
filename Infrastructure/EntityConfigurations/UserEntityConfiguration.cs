@@ -9,12 +9,15 @@ internal sealed class UserEntityConfiguration : IEntityTypeConfiguration<User>
     {
         builder.ToTable("Users");
 
-        builder.HasKey(x => x.Id);
+        builder.HasKey(m => m.Id);
 
-        builder.Property(x => x.Name).IsRequired().HasMaxLength(30);
-        builder.Property(x => x.Surname).IsRequired().HasMaxLength(40);
-        builder.Property(x => x.Email).IsRequired();
-        builder.Property(x => x.PasswordSalt).IsRequired();
-        builder.Property(x => x.PasswordHash).IsRequired();
+        builder.Property(m => m.Name).IsRequired().HasMaxLength(30);
+        builder.Property(m => m.Surname).IsRequired().HasMaxLength(40);
+       
+        builder.Property(m => m.Email).IsRequired();
+        builder.HasIndex(m => m.Email).IsUnique();
+
+        builder.Property(m => m.PasswordSalt).IsRequired();
+        builder.Property(m => m.PasswordHash).IsRequired();
     }
 }

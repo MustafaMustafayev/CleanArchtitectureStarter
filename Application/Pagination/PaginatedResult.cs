@@ -1,4 +1,4 @@
-﻿namespace Domain.Pagination;
+﻿namespace Application.Pagination;
 public class PaginatedResult<T> : PaginationInfo where T : class
 {
     public List<T> Datas { get; set; }

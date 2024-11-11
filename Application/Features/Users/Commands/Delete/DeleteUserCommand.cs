@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.Responses;
+using MediatR;
 
 namespace Application.Features.Users.Commands.Delete;
-internal class DeleteUserCommand
+public sealed record class DeleteUserCommand : IRequest<IResult>
 {
+    public Guid Id { get; set; }
 }

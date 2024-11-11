@@ -1,4 +1,6 @@
-﻿namespace Application.Responses;
+﻿using Application.Localization;
+
+namespace Application.Responses;
 
 public record ErrorDataResult<T> : DataResult<T>
 {
@@ -8,7 +10,7 @@ public record ErrorDataResult<T> : DataResult<T>
     }
 
     public ErrorDataResult(T data)
-        : base(data, false)
+        : base(data, false, EMessages.GeneralError.Translate())
     {
     }
 
@@ -18,7 +20,7 @@ public record ErrorDataResult<T> : DataResult<T>
     }
 
     public ErrorDataResult()
-        : base(default, false)
+        : base(default, false, EMessages.GeneralError.Translate())
     {
     }
 }

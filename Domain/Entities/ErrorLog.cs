@@ -12,5 +12,6 @@ public sealed class ErrorLog : IEntity
     public string Ip { get; set; } = default!;
     public string ErrorMessage { get; set; } = default!;
     public string StackTrace { get; set; } = default!;
+    public string TraceIdentifier {  get; set; } = default!;
     public bool IsDeleted { get; set; }
 }

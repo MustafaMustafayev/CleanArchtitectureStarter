@@ -1,6 +1,4 @@
-﻿using Domain.Pagination;
-using Domain.Primitives;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace Domain.Repositories;
 public interface IGenericRepository<T> where T : class
@@ -8,9 +6,9 @@ public interface IGenericRepository<T> where T : class
     Task<IEnumerable<T>> GetListAsync(Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
     Task<IEnumerable<T>> GetListAsNoTrackingAsync(Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
     Task<IEnumerable<T>> GetListAsNoTrackingWithIdentityResolutionAsync(Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
-    Task<PaginatedResult<T>> GetPaginatedListAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
-    Task<PaginatedResult<T>> GetPaginatedListAsNoTrackingAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
-    Task<PaginatedResult<T>> GetPaginatedListAsNoTrackingWithIdentityResolutionAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
+    Task<(IEnumerable<T>, int totalCount)> GetPaginatedListAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
+    Task<(IEnumerable<T>, int totalCount)> GetPaginatedListAsNoTrackingAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
+    Task<(IEnumerable<T>, int totalCount)> GetPaginatedListAsNoTrackingWithIdentityResolutionAsync(int pageNumber, int pageSize, Expression<Func<T, bool>>? filter = null, bool ignoreQueryFilters = false);
     Task<T?> GetAsync(Expression<Func<T, bool>> filter, bool ignoreQueryFilters = false);
     Task<T> GetAsync(Guid id);
     Task<T?> GetAsNoTrackingAsync(Expression<Func<T, bool>> filter);

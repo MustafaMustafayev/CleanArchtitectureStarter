@@ -2,6 +2,7 @@
 using Application.Responses;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace WebApi.ActionFilters;
 
@@ -23,6 +24,6 @@ public class ModelValidatorActionFilter : IActionFilter
                             .ToDictionary(ms => ms.Key, ms => ms.Value?.Errors.Select(e => e.ErrorMessage).ToArray());
 
         var result = new ErrorDataResult<Dictionary<string, string[]>>(errors!, EMessages.InvalidModel.Translate());
-        context.Result = new BadRequestObjectResult(result);
+        context.Result = new UnprocessableEntityObjectResult(result);
     }
 }

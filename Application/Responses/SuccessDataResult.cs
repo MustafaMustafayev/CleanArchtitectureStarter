@@ -1,4 +1,6 @@
-﻿namespace Application.Responses;
+﻿using Application.Localization;
+
+namespace Application.Responses;
 
 public record SuccessDataResult<T> : DataResult<T>
 {
@@ -8,7 +10,7 @@ public record SuccessDataResult<T> : DataResult<T>
     }
 
     public SuccessDataResult(T data)
-        : base(data, true)
+        : base(data, true, EMessages.Success.Translate())
     {
     }
 
@@ -18,7 +20,7 @@ public record SuccessDataResult<T> : DataResult<T>
     }
 
     public SuccessDataResult()
-        : base(default, true)
+        : base(default, true, EMessages.Success.Translate())
     {
     }
 }

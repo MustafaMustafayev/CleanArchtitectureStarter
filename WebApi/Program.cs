@@ -12,6 +12,7 @@ using Serilog;
 using WebApi.Middlewares;
 using WebApi.ActionFilters;
 using System.Text.Json.Serialization;
+using WebApi.Handlers;
 
 namespace WebApi;
 
@@ -38,6 +39,9 @@ public class Program
 
         //register httpcontextaccessor
         builder.Services.AddHttpContextAccessor();
+
+        builder.Services.AddProblemDetails();
+        builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
         //register layers
         builder.Services.AddDomain()
@@ -74,6 +78,8 @@ public class Program
 
         var app = builder.Build();
 
+        app.UseExceptionHandler();
+
         // Configure the HTTP request pipeline.
         if (configSettings.SwaggerSettings.IsEnabled)
         {
@@ -90,7 +96,6 @@ public class Program
         app.UseCors(Constants.CORS_POLICY_NAME);
 
         app.UseMiddleware<LocalizationMiddleware>();
-        app.UseMiddleware<ExceptionMiddleware>();
 
         /* add secutiry headers to response
         app.Use(async (context, next) =>
