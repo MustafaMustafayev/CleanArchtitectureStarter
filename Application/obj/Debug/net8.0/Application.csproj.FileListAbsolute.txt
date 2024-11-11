@@ -14,3 +14,13 @@ C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Appl
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\bin\Debug\net8.0\az\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\bin\Debug\net8.0\en\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\bin\Debug\net8.0\ru\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\Application.Localization.MsgResource.az.resources
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\Application.Localization.MsgResource.en.resources
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\Application.Localization.MsgResource.ru.resources
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\Application.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\az\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\en\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Application\obj\Debug\net8.0\ru\Application.resources.dll

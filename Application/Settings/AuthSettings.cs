@@ -1,5 +1,5 @@
 ﻿namespace Application.Settings;
-public class AuthSettings
+public sealed record AuthSettings
 {
     public required string Type { get; set; }
     public required string HeaderName { get; set; }

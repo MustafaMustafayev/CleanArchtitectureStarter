@@ -7,6 +7,12 @@ internal class ErrorLogConfiguration : IEntityTypeConfiguration<ErrorLog>
 {
     public void Configure(EntityTypeBuilder<ErrorLog> builder)
     {
-        throw new NotImplementedException();
+        builder.ToTable("ErrorLogs");
+
+        builder.HasKey(m => m.Id);
+
+        builder.HasOne(m => m.User)
+                .WithMany()
+                .HasForeignKey(m => m.UserId);
     }
 }

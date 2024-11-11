@@ -8,7 +8,7 @@ internal static class SoftDeleteExtension
 {
     public static void AddSoftDeleteExtension(this ModelBuilder modelBuilder, string property, object value)
     {
-        Type[] softDeleteTypes = { typeof(Auditable), typeof(Token), typeof(ErrorLog) };
+        Type[] softDeleteTypes = [typeof(Auditable), typeof(Token), typeof(ErrorLog)];
 
         foreach (var entityType in modelBuilder.Model.GetEntityTypes())
         {

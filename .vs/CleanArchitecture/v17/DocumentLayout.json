@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\entityconfigurations\\errorlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfigurations\\errorlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\interceptors\\auditingsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interceptors\\auditingsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\entityconfigurations\\tokenentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfigurations\\tokenentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\entityconfigurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfigurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\databasecontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databasecontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\helpers\\tokenresolverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helpers\\tokenresolverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\infrastructure\\helpers\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC18EAD-9175-4A0B-8CBE-14EB68A1FA0B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helpers\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5A7168-C33A-43DE-A65C-93CCEA6C155B}|WebApi\\WebApi.csproj|c:\\users\\asus\\desktop\\files\\projects\\cleanarchitecturekit\\cleanarchitecture\\webapi\\actionfilters\\modelvalidatoractionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A7168-C33A-43DE-A65C-93CCEA6C155B}|WebApi\\WebApi.csproj|solutionrelative:webapi\\actionfilters\\modelvalidatoractionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ErrorLogConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\ErrorLogConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityConfigurations\\ErrorLogConfiguration.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\ErrorLogConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityConfigurations\\ErrorLogConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Title": "AuditingSaveChangesInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
+              "RelativeToolTip": "Infrastructure\\Interceptors\\AuditingSaveChangesInterceptor.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:25:25.258Z",
+              "WhenOpened": "2024-11-11T13:01:34.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TokenEntityConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\TokenEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityConfigurations\\TokenEntityConfiguration.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\TokenEntityConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityConfigurations\\TokenEntityConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:24:41.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserEntityConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\UserEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityConfigurations\\UserEntityConfiguration.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\EntityConfigurations\\UserEntityConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityConfigurations\\UserEntityConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:23:53.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\DatabaseContexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DatabaseContexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\DatabaseContexts\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\DatabaseContexts\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:22:55.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UnitOfWork.cs",
+              "Title": "ModelValidatorActionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
+              "RelativeDocumentMoniker": "WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
+              "RelativeToolTip": "WebApi\\ActionFilters\\ModelValidatorActionFilter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:22:37.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:22:36.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TokenResolverService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Helpers\\TokenResolverService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Helpers\\TokenResolverService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Helpers\\TokenResolverService.cs",
-              "RelativeToolTip": "Infrastructure\\Helpers\\TokenResolverService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:22:26.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EncryptionService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Helpers\\EncryptionService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Helpers\\EncryptionService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Infrastructure\\Helpers\\EncryptionService.cs",
-              "RelativeToolTip": "Infrastructure\\Helpers\\EncryptionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T08:22:25.128Z",
+              "WhenOpened": "2024-11-11T13:01:25.406Z",
               "EditorCaption": ""
             }
           ]

@@ -12,14 +12,17 @@
 
   <ItemGroup>
     <Folder Include="Behaviours\" />
-    <Folder Include="Features\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Features\Auth\Login\" />
+    <Folder Include="Features\Auth\Logout\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.2.0" />
+    <PackageReference Include="Scrutor" Version="5.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
   </ItemGroup>
 
 </Project>

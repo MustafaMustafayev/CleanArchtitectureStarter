@@ -7,6 +7,12 @@ internal class TokenEntityConfiguration : IEntityTypeConfiguration<Token>
 {
     public void Configure(EntityTypeBuilder<Token> builder)
     {
-        throw new NotImplementedException();
+        builder.ToTable("Tokens");
+
+        builder.HasKey(x => x.Id);
+
+        builder.HasOne(m => m.User)
+               .WithMany()
+               .HasForeignKey(m => m.UserId);
     }
 }

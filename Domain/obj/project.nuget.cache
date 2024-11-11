@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3vavSi5XUPezzrOV9ml44El2sHkNCEMZVcyuCoAnMHlxGykqfdRUDXqCmMfWLdcgmq2sqatun5m5Q4DDxjXh1Q==",
+  "dgSpecHash": "iQzSU9X2u0CTtv+A4hvIuB7l1R1kg7MfwNFFd7pX6gRh8WeMeGTWXphoEsUi/O8RMgRoSjCnwFKqT/6X7Pv6Pg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Desktop\\files\\projects\\CleanArchitectureKit\\CleanArchitecture\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\scrutor\\5.0.2\\scrutor.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
