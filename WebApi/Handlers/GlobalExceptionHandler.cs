@@ -17,18 +17,16 @@ public class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger,
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
     {
-        logger.LogError($"Something went wrong: {exception}");
-
         try
         {
+            logger.LogError($"Something went wrong: {exception}");
             await LogErrorAsync(httpContext, exception, cancellationToken);
+
         }
-        catch(Exception ex)
+        finally
         {
-
+            await HandleExceptionAsync(httpContext);
         }
-        await HandleExceptionAsync(httpContext);
-
         return true;
     }
 

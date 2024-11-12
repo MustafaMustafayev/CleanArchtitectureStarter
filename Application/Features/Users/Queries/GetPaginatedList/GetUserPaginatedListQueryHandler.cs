@@ -11,21 +11,21 @@ public sealed class GetUserPaginatedListQueryHandler(IMapper mapper,
 {
     public async Task<IDataResult<PaginatedResult<GetUserPaginatedListResponse>>> Handle(GetUserPaginatedListQuery request, CancellationToken cancellationToken)
     {
-        (IEnumerable<User> datas, int totalCount) paginatedResponse = await userRepository.GetPaginatedListAsNoTrackingAsync(request.PageNumber, request.PageSize);
+        (IEnumerable<User> datas, int totalCount) = await userRepository.GetPaginatedListAsNoTrackingAsync(request.PageNumber, request.PageSize);
 
-        PaginatedResult<GetUserPaginatedListResponse> result
-            ;
-        if (!paginatedResponse.datas.Any())
+        PaginatedResult<GetUserPaginatedListResponse> result;
+            
+        if (!datas.Any())
         {
             result = new PaginatedResult<GetUserPaginatedListResponse>(Enumerable.Empty<GetUserPaginatedListResponse>().ToList(),
-                                                                       paginatedResponse.totalCount,
+                                                                       totalCount,
                                                                        request.PageNumber,
                                                                        request.PageSize);
         }
         else
         {
-            result = new PaginatedResult<GetUserPaginatedListResponse>(mapper.Map<List<GetUserPaginatedListResponse>>(paginatedResponse.datas),
-                                                                       paginatedResponse.totalCount,
+            result = new PaginatedResult<GetUserPaginatedListResponse>(mapper.Map<List<GetUserPaginatedListResponse>>(datas),
+                                                                       totalCount,
                                                                        request.PageNumber,
                                                                        request.PageSize);
         }
