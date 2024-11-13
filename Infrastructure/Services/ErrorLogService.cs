@@ -1,4 +1,4 @@
-﻿using Application.Dtos.ErrorLog;
+﻿using Application.Dtos.ErrorLogs;
 using Application.Interfaces;
 using Domain.Entities;
 using Domain.Repositories;

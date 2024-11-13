@@ -24,7 +24,7 @@ public static class DependencyInjection
     {
         services.AddMiniProfiler(options =>
         {
-            options.RouteBasePath = "/profiler";
+            options.RouteBasePath = "/mini-profiler";
             options.ColorScheme = ColorScheme.Dark;
             options.SqlFormatter = new InlineFormatter();
         }).AddEntityFramework();
@@ -52,13 +52,6 @@ public static class DependencyInjection
                 Description = "JWT Authorization header using the Bearer scheme."
             });
 
-            c.AddSecurityDefinition(configSettings.AuthSettings.RefreshTokenHeaderName, new OpenApiSecurityScheme
-            {
-                Name = configSettings.AuthSettings.RefreshTokenHeaderName,
-                In = ParameterLocation.Header,
-                Description = "Refresh token header."
-            });
-
             c.AddSecurityRequirement(new OpenApiSecurityRequirement
             {
                 {
@@ -68,17 +61,6 @@ public static class DependencyInjection
                         {
                             Type = ReferenceType.SecurityScheme,
                             Id = configSettings.AuthSettings.TokenPrefix
-                        }
-                    },
-                    Array.Empty<string>()
-                },
-                {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference = new OpenApiReference
-                        {
-                            Type = ReferenceType.SecurityScheme,
-                            Id = configSettings.AuthSettings.RefreshTokenHeaderName
                         }
                     },
                     Array.Empty<string>()

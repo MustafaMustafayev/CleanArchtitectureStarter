@@ -44,8 +44,7 @@ public class Program
         builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
         //register layers
-        builder.Services.AddDomain()
-                        .AddApplication()
+        builder.Services.AddApplication()
                         .AddInfrastructure(configSettings.DatabaseSettings)
                         .AddPresentation(configSettings.AuthSettings.SecretKey)
                         .AddControllers(opt => opt.Filters.Add(typeof(ModelValidatorActionFilter)))
@@ -93,6 +92,9 @@ public class Program
 
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+        //use miniprofiler
+        app.UseMiniProfiler();
+
         app.UseCors(Constants.CORS_POLICY_NAME);
 
         app.UseMiddleware<LocalizationMiddleware>();
@@ -115,9 +117,6 @@ public class Program
             opt.WatchPageUsername = "admin";
             opt.WatchPagePassword = "admin";
         });
-
-        //use miniprofiler
-        app.UseMiniProfiler();
 
         //use health check
         app.MapHealthChecks(

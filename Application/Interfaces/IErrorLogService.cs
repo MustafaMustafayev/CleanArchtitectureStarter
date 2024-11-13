@@ -1,4 +1,4 @@
-﻿using Application.Dtos.ErrorLog;
+﻿using Application.Dtos.ErrorLogs;
 
 namespace Application.Interfaces;
 public interface IErrorLogService

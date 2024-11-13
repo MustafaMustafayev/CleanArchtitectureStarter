@@ -27,7 +27,6 @@ public static class DependencyInjection
             options.SubstituteApiVersionInUrl = true;
         });
 
-
         //register authentication
            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -65,7 +64,6 @@ public static class DependencyInjection
                     SecurePolicy = CookieSecurePolicy.SameAsRequest
                 };
             });
-
 
         return services;
     }

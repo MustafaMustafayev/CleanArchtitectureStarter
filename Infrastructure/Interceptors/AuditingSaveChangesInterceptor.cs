@@ -10,7 +10,7 @@ public sealed class AuditingSaveChangesInterceptor(ITokenResolverService tokenRe
     {
         var dbContext = eventData.Context;
 
-        var entries = dbContext.ChangeTracker.Entries().Where(e => e.Entity is Auditable && e.State is EntityState.Added or EntityState.Modified);
+        var entries = dbContext!.ChangeTracker.Entries().Where(e => e.Entity is Auditable && e.State is EntityState.Added or EntityState.Modified);
 
         Guid? userId = tokenResolverService.GetUserIdFromToken();
         DateTime operationDate = DateTime.Now;

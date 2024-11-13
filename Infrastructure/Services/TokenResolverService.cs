@@ -1,7 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Settings;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using System.IdentityModel.Tokens.Jwt;
 
 namespace Infrastructure.Services;
@@ -18,12 +17,12 @@ public sealed class TokenResolverService(IEncryptionService encryptionService,
 
     private JwtSecurityToken GetJwtSecurityToken()
     {
-        var tokenString = GetTokenString();
+        var tokenString = GetAccessToken();
         return new JwtSecurityToken(tokenString[7..]);
     }
 
-    public string GetTokenString()
+    public string GetAccessToken()
     {
-        return httpContextAccessor.HttpContext?.Request.Headers[configSettings.AuthSettings.HeaderName].ToString()!;
+        return httpContextAccessor.HttpContext?.Request.Headers[configSettings.AuthSettings.HeaderName].ToString()![7..]!;
     }
 }

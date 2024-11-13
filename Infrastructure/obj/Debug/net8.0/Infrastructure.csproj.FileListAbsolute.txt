@@ -1,10 +1,14 @@
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Application.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Domain.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Application.pdb
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\az\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\en\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\ru\Application.resources.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
@@ -15,9 +19,5 @@ C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infr
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
-C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
-C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
-C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\az\Application.resources.dll
-C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\en\Application.resources.dll
-C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\bin\Debug\net8.0\ru\Application.resources.dll
+C:\Users\ASUS\Desktop\files\projects\CleanArchitectureKit\CleanArchitecture\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

@@ -123,6 +123,9 @@
   <data name="GeneralError" xml:space="preserve">
     <value>An error occurred</value>
   </data>
+  <data name="InvalidLoginCredentials" xml:space="preserve">
+    <value>Email or password is incorrect</value>
+  </data>
   <data name="InvalidModel" xml:space="preserve">
     <value>The information was not entered correctly</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Success" xml:space="preserve">
     <value>Successfully executed</value>
+  </data>
+  <data name="UnAuthorizedAccess" xml:space="preserve">
+    <value>UnAuthorized access</value>
   </data>
   <data name="UserDoesNotExist" xml:space="preserve">
     <value>User does not exist</value>

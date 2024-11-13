@@ -3,9 +3,11 @@
 public enum EMessages
 {
     InvalidModel,
+    InvalidLoginCredentials,
     GeneralError,
     PermissionDenied,
     Success,
     EmailAlreadyExist,
-    UserDoesNotExist
+    UserDoesNotExist,
+    UnAuthorizedAccess
 }

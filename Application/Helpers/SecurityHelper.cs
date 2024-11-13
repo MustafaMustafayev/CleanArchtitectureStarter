@@ -1,11 +1,8 @@
-﻿using Application.Interfaces;
-using Application.Settings;
-using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
 
 namespace Application.Helpers;
-public class SecurityHelper(ConfigSettings configSettings,
-                            IEncryptionService encryptionService)
+public class SecurityHelper
 {
     public static string GenerateSalt()
     {

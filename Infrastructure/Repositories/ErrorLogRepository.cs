@@ -4,8 +4,13 @@ using Infrastructure.DatabaseContexts;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
-public sealed class ErrorLogRepository(AppDbContext dbContext) : GenericRepository<ErrorLog>(dbContext), IErrorLogRepository
+public sealed class ErrorLogRepository(AppDbContext dbContext) : IErrorLogRepository
 {
+    public async Task AddAsync(ErrorLog errorLog)
+    {
+        await dbContext.ErrorLogs.AddAsync(errorLog);
+    }
+
     public async Task<(IEnumerable<ErrorLog>, int totalCount)> GetPaginatedListAsNoTrackingAsync(int pageNumber, int pageSize)
     {
         var query = dbContext.ErrorLogs;
@@ -16,10 +21,5 @@ public sealed class ErrorLogRepository(AppDbContext dbContext) : GenericReposito
         int totalCount = await query.CountAsync();
 
         return (errorLogs, totalCount);
-    }
-
-    async Task IErrorLogRepository.AddAsync(ErrorLog errorLog)
-    {
-        await dbContext.ErrorLogs.AddAsync(errorLog);
     }
 }

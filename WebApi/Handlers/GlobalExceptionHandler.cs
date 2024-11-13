@@ -1,18 +1,16 @@
-﻿using Application.Dtos.ErrorLog;
+﻿using Application.Dtos.ErrorLogs;
 using Application.Interfaces;
 using Application.Localization;
 using Application.Responses;
 using Application.Settings;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http.Features;
-using Microsoft.Extensions.DependencyInjection;
 using System.Net;
 using System.Text.Json;
-using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace WebApi.Handlers;
 
-public class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger,
+public sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger,
                                     IServiceScopeFactory serviceScopeFactory) : IExceptionHandler
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)

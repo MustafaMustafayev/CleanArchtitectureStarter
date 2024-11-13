@@ -11,8 +11,8 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<ErrorLog> ErrorLogs { get; set; }
 
     /* migration commands
-  dotnet ef --startup-project ../WebApi migrations add initial --context AppDbContext
-  dotnet ef --startup-project ../WebApi database update --context AppDbContext
+          dotnet ef --startup-project ../WebApi migrations add remove_refresh_token --context AppDbContext
+          dotnet ef --startup-project ../WebApi database update --context AppDbContext
     */
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

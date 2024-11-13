@@ -90,13 +90,6 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("RefreshToken")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("RefreshTokenExpireDate")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
