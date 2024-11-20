@@ -30,7 +30,8 @@ public static class DependencyInjection
         }).AddEntityFramework();
     }
 
-    public static void AddHealthCheck(this IServiceCollection services, string databaseConnectionString)
+    public static void AddHealthCheck(this IServiceCollection services, 
+                                            string databaseConnectionString)
     {
         services.AddHealthChecks().AddNpgSql(databaseConnectionString);
     }
