@@ -12,7 +12,7 @@ public sealed class DeleteUserCommandHandler(IUserRepository userRepository,
     {
         User user = await userRepository.GetAsync(request.Id);
 
-        if(user is not { })
+        if (user is not { })
         {
             return new ErrorResult(EMessages.UserDoesNotExist.Translate());
         }

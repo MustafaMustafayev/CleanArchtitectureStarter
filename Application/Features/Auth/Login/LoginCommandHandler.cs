@@ -18,14 +18,14 @@ public sealed class LoginCommandHandler(IMapper mapper,
     public async Task<IDataResult<LoginCommandResponse>> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         User? user = await userRepository.GetAsNoTrackingAsync(m => m.Email == request.Email);
-        if(user is not { })
+        if (user is not { })
         {
             return new ErrorDataResult<LoginCommandResponse>(EMessages.InvalidLoginCredentials.Translate());
         }
 
         string passwordHash = SecurityHelper.HashPassword(request.Password, user.PasswordSalt);
-       
-        if(user.PasswordHash != passwordHash)
+
+        if (user.PasswordHash != passwordHash)
         {
             return new ErrorDataResult<LoginCommandResponse>(EMessages.InvalidLoginCredentials.Translate());
         }

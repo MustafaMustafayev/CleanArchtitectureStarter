@@ -6,6 +6,6 @@ public sealed class UserLoginInfoDtoMapper : Profile
 {
     public UserLoginInfoDtoMapper()
     {
-        CreateMap<User, UserLoginInfoDto>(); 
+        CreateMap<User, UserLoginInfoDto>();
     }
 }

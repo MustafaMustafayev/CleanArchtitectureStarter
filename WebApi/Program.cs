@@ -1,18 +1,17 @@
-using Application.Settings;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Infrastructure;
-using Domain;
 using Application;
-using WatchDog;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Application.Settings;
 using HealthChecks.UI.Client;
-using WebApi.Helpers;
+using Infrastructure;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Presentation;
 using Serilog;
-using WebApi.Middlewares;
-using WebApi.ActionFilters;
 using System.Text.Json.Serialization;
+using WatchDog;
+using WebApi.ActionFilters;
 using WebApi.Handlers;
+using WebApi.Helpers;
+using WebApi.Middlewares;
 
 namespace WebApi;
 

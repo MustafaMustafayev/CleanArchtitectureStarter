@@ -10,5 +10,5 @@ public sealed class User : Auditable, IEntity
     [EmailAddress]
     public string Email { get; set; } = default!;
     public string PasswordSalt { get; set; } = default!;
-    public string PasswordHash {  get; set; } = default!;
+    public string PasswordHash { get; set; } = default!;
 }

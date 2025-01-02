@@ -8,19 +8,19 @@ public sealed class ErrorLogService(IErrorLogRepository errorLogRepository,
                                     IUnitOfWork unitOfWork) : IErrorLogService
 {
     public async Task AddAsync(ErrorLogCreateDto dto, CancellationToken cancellationToken)
-    {      
-          ErrorLog data = new()
-          {
-              AccessToken = dto.AccessToken!,
-              ErrorMessage = dto.ErrorMessage!,
-              Ip = dto.Ip!,
-              Path = dto.Path!,
-              StackTrace = dto.StackTrace!,
-              UserId = dto.UserId,
-              TraceIdentifier = dto.TraceIdentifier!
-          };
+    {
+        ErrorLog data = new()
+        {
+            AccessToken = dto.AccessToken!,
+            ErrorMessage = dto.ErrorMessage!,
+            Ip = dto.Ip!,
+            Path = dto.Path!,
+            StackTrace = dto.StackTrace!,
+            UserId = dto.UserId,
+            TraceIdentifier = dto.TraceIdentifier!
+        };
 
-          await errorLogRepository.AddAsync(data);
-          await unitOfWork.SaveChangesAsync(cancellationToken);
+        await errorLogRepository.AddAsync(data);
+        await unitOfWork.SaveChangesAsync(cancellationToken);
     }
 }

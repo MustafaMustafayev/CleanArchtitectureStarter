@@ -14,7 +14,7 @@ public sealed class GetUserPaginatedListQueryHandler(IMapper mapper,
         (IEnumerable<User> datas, int totalCount) = await userRepository.GetPaginatedListAsNoTrackingAsync(request.PageNumber, request.PageSize);
 
         PaginatedResult<GetUserPaginatedListResponse> result;
-            
+
         if (!datas.Any())
         {
             result = new PaginatedResult<GetUserPaginatedListResponse>(Enumerable.Empty<GetUserPaginatedListResponse>().ToList(),

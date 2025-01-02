@@ -12,7 +12,7 @@ public sealed class UpdateUserCommandHandler(IMapper mapper,
 {
     public async Task<IResult> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
     {
-        if(await userRepository.IsEmailExistAsync(request.Id, request.Email))
+        if (await userRepository.IsEmailExistAsync(request.Id, request.Email))
         {
             return new ErrorResult(EMessages.EmailAlreadyExist.Translate());
         }

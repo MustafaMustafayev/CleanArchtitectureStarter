@@ -8,13 +8,13 @@ internal static class SoftDeleteExtension
     {
         foreach (var entityType in modelBuilder.Model.GetEntityTypes())
         {
-                var parameter = Expression.Parameter(entityType.ClrType, "p");
-                var deletedCheck = Expression.Lambda(
-                    Expression.Equal(
-                        Expression.Property(parameter, property),
-                        Expression.Constant(value)
-                    ), parameter);
-                modelBuilder.Entity(entityType.ClrType).HasQueryFilter(deletedCheck);
+            var parameter = Expression.Parameter(entityType.ClrType, "p");
+            var deletedCheck = Expression.Lambda(
+                Expression.Equal(
+                    Expression.Property(parameter, property),
+                    Expression.Constant(value)
+                ), parameter);
+            modelBuilder.Entity(entityType.ClrType).HasQueryFilter(deletedCheck);
         }
     }
 }

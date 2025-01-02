@@ -157,7 +157,7 @@ public class GenericRepository<TEntity>(AppDbContext dbContext) : IGenericReposi
 
     public void SoftDeleteRange(List<TEntity> entries)
     {
-        foreach(TEntity entry in entries)
+        foreach (TEntity entry in entries)
         {
             var property = entry.GetType().GetProperty(nameof(Auditable.IsDeleted)) ?? throw new ArgumentException(
                         @$"The property with type: {entry.GetType()} can not be SoftDeleted, 

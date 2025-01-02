@@ -1,9 +1,9 @@
-﻿using StackExchange.Profiling.SqlFormatters;
+﻿using Application.Settings;
+using Microsoft.OpenApi.Models;
 using StackExchange.Profiling;
+using StackExchange.Profiling.SqlFormatters;
 using WatchDog;
 using WatchDog.src.Enums;
-using Application.Settings;
-using Microsoft.OpenApi.Models;
 
 namespace WebApi;
 
@@ -30,7 +30,7 @@ public static class DependencyInjection
         }).AddEntityFramework();
     }
 
-    public static void AddHealthCheck(this IServiceCollection services, 
+    public static void AddHealthCheck(this IServiceCollection services,
                                             string databaseConnectionString)
     {
         services.AddHealthChecks().AddNpgSql(databaseConnectionString);

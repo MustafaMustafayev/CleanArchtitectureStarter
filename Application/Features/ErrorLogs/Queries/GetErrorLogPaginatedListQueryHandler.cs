@@ -14,7 +14,7 @@ public sealed class GetErrorLogPaginatedListQueryHandler(IMapper mapper,
         (IEnumerable<ErrorLog> datas, int totalCount) = await errorLogRepository.GetPaginatedListAsNoTrackingAsync(request.PageNumber, request.PageSize);
 
         PaginatedResult<GetErrorLogPaginatedListResponse> result;
-            
+
         if (!datas.Any())
         {
             result = new PaginatedResult<GetErrorLogPaginatedListResponse>(Enumerable.Empty<GetErrorLogPaginatedListResponse>().ToList(),

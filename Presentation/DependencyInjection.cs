@@ -28,42 +28,42 @@ public static class DependencyInjection
         });
 
         //register authentication
-           services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuerSigningKey = false,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretKey)),
-                        ValidateIssuer = false,
-                        ValidateAudience = false,
-                        ValidateLifetime = true,
-                        ClockSkew = TimeSpan.Zero
-                    };
-                });
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+             .AddJwtBearer(options =>
+             {
+                 options.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     ValidateIssuerSigningKey = false,
+                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretKey)),
+                     ValidateIssuer = false,
+                     ValidateAudience = false,
+                     ValidateLifetime = true,
+                     ClockSkew = TimeSpan.Zero
+                 };
+             });
 
-            services.Configure<IdentityOptions>(options =>
+        services.Configure<IdentityOptions>(options =>
+        {
+            options.Password.RequireDigit = true;
+            options.Lockout.MaxFailedAccessAttempts = 5;
+            options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
+            options.Lockout.AllowedForNewUsers = true;
+        });
+
+        services.ConfigureApplicationCookie(options =>
+        {
+            options.LoginPath = "/auth/login";
+            options.LogoutPath = "/auth/logout";
+            options.SlidingExpiration = true;
+
+            options.Cookie = new CookieBuilder
             {
-                options.Password.RequireDigit = true;
-                options.Lockout.MaxFailedAccessAttempts = 5;
-                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
-                options.Lockout.AllowedForNewUsers = true;
-            });
-
-            services.ConfigureApplicationCookie(options =>
-            {
-                options.LoginPath = "/auth/login";
-                options.LogoutPath = "/auth/logout";
-                options.SlidingExpiration = true;
-
-                options.Cookie = new CookieBuilder
-                {
-                    HttpOnly = true,
-                    Name = ".AspNetCore.Security.Cookie",
-                    SameSite = SameSiteMode.Lax,
-                    SecurePolicy = CookieSecurePolicy.SameAsRequest
-                };
-            });
+                HttpOnly = true,
+                Name = ".AspNetCore.Security.Cookie",
+                SameSite = SameSiteMode.Lax,
+                SecurePolicy = CookieSecurePolicy.SameAsRequest
+            };
+        });
 
         return services;
     }

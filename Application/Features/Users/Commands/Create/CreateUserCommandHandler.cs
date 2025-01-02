@@ -7,13 +7,13 @@ using Domain.Repositories;
 using MediatR;
 
 namespace Application.Features.Users.Commands.Create;
-public sealed class CreateUserCommandHandler(IMapper mapper, 
-                                             IUserRepository  userRepository,
+public sealed class CreateUserCommandHandler(IMapper mapper,
+                                             IUserRepository userRepository,
                                              IUnitOfWork unitOfWork) : IRequestHandler<CreateUserCommand, IResult>
 {
     public async Task<IResult> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
-        if(await userRepository.IsEmailExistAsync(null, request.Email))
+        if (await userRepository.IsEmailExistAsync(null, request.Email))
         {
             return new ErrorResult(EMessages.EmailAlreadyExist.Translate());
         }

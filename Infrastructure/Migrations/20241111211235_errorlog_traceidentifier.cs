@@ -2,38 +2,37 @@
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Infrastructure.Migrations;
+
+/// <inheritdoc />
+public partial class errorlog_traceidentifier : Migration
 {
     /// <inheritdoc />
-    public partial class errorlog_traceidentifier : Migration
+    protected override void Up(MigrationBuilder migrationBuilder)
     {
-        /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.AddColumn<string>(
-                name: "TraceIdentifier",
-                table: "ErrorLogs",
-                type: "text",
-                nullable: false,
-                defaultValue: "");
+        migrationBuilder.AddColumn<string>(
+            name: "TraceIdentifier",
+            table: "ErrorLogs",
+            type: "text",
+            nullable: false,
+            defaultValue: "");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Users_Email",
-                table: "Users",
-                column: "Email",
-                unique: true);
-        }
+        migrationBuilder.CreateIndex(
+            name: "IX_Users_Email",
+            table: "Users",
+            column: "Email",
+            unique: true);
+    }
 
-        /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.DropIndex(
-                name: "IX_Users_Email",
-                table: "Users");
+    /// <inheritdoc />
+    protected override void Down(MigrationBuilder migrationBuilder)
+    {
+        migrationBuilder.DropIndex(
+            name: "IX_Users_Email",
+            table: "Users");
 
-            migrationBuilder.DropColumn(
-                name: "TraceIdentifier",
-                table: "ErrorLogs");
-        }
+        migrationBuilder.DropColumn(
+            name: "TraceIdentifier",
+            table: "ErrorLogs");
     }
 }
