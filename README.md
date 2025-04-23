@@ -50,8 +50,8 @@ A robust, production-ready .NET Web API starter template implementing Clean Arch
 
 ### Prerequisites
 
-- .NET 7.0 SDK or later
-- SQL Server (or your preferred database)
+- .NET 8.0 SDK or later
+- PostgreSQL (or your preferred database)
 - Visual Studio 2022 or preferred IDE
 
 ### Installation
