@@ -1,7 +1,6 @@
 # Clean Architecture Kit 🏗️
 
-[![.NET](https://img.shields.io/badge/.NET-7.0-512BD4?style=flat&logo=dotnet)](https://dotnet.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat&logo=dotnet)](https://dotnet.microsoft.com/)
 
 A robust, production-ready .NET Web API starter template implementing Clean Architecture principles with modern best practices and essential features for enterprise applications.
 
@@ -119,10 +118,6 @@ dotnet test
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
